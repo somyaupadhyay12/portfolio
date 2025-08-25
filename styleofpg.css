@@ -1,0 +1,83 @@
+.img1{
+      width: 300px;       /* sets width */
+  height: auto;       /* keeps natural aspect ratio */
+/*  border-radius: 80%; makes it circular (optional) */
+  display:flex;     /* lets margin work */
+  margin: 0 auto;     /* centers it horizontally */
+}
+.img2{
+      width: 300px;       /* sets width */
+  height: auto;       /* keeps natural aspect ratio */
+/*  border-radius: 80%; makes it circular (optional) */
+  display:flex;     /* lets margin work */
+  margin: 0 auto;     /* centers it horizontally */
+}
+.navbar {
+   padding: 10px 20px;
+}
+
+.navbar ul {
+  list-style: none ;           /* remove bullets */
+  display: flex;              /* put links in a row */
+  justify-content: center;    /* center them */
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  margin: 0 15px;
+}
+
+.navbar a {
+    font-size:large;
+  text-decoration: none;      /* remove underline */
+  color: bisque;              /* link color */
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #ffcc00;             /* hover effect */
+}
+
+.profile{
+  width: 300px;       /* sets width */
+  height: auto;       /* keeps natural aspect ratio */
+  border-radius: 80%;/* makes it circular (optional) */
+  display:flex;     /* lets margin work */
+  margin: 0 auto;     /* centers it horizontally */
+}
+
+body{
+    background-image: url("./bg3.jpg");
+    background
+}
+h1{
+    /*background-color: rgb(12, 22, 86);*/
+    color:bisque;
+    font-size: xx-large;
+    text-align: center;
+}
+h2{
+    /*background-color: rgb(12,22,86); */
+    color:antiquewhite;
+    font-style: italic;
+    font-size: medium;
+    text-align: center;
+}
+
+p{
+   /* background-color: rgb(189, 191, 202); */
+    color:#ffe4c4;
+    font-size: medium;
+    width: 60%;               /* how wide you want your content */
+    margin: 0 auto;           /* this auto centers it horizontally */
+    padding: 20px;            /* optional: space inside */
+}
+
+#id1{
+    font-style: italic;
+    font-size:small;
+}
+
+
